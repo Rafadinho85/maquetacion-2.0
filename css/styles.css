@@ -105,3 +105,36 @@ body{
     transform: scale(1.2, 1.2);
 }
 
+/*Estilos de banner*/
+#container{
+    width: 1250px;
+    min-height: 700px;
+    margin: 0px auto;
+}
+
+#bannerafuera{
+    width: 1208px;
+    height: 120px;
+    border: 1px solid #cccccc;
+    margin-top: 32px;
+   line-height: 120px;
+   padding: 10px;
+}
+#banner{
+    display: block;
+    width: 1200px;
+    height: 100%;
+    border: 1px solid #cccccc;
+    margin: 0px auto;
+    text-align: center;
+    background: linear-gradient(to right, #002846, #0061a1);
+  
+}
+
+#banner h1{
+    color: white;
+    font-family: BebasNeue;
+    letter-spacing: 2px;
+    text-shadow: 0px 4px 2px black;
+    font-size: 40px;
+}
