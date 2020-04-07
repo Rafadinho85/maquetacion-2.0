@@ -38,10 +38,10 @@ body{
     background-image: url(../img/pattern.png);
 }
 .wrap{
-    width: 1200px;
+    width: 1250px;
     margin: 0px auto;
 }
-.gear{
+.gear, .icon{
     font-family: "webSymbolsRegular";
 }
 /*HEADER*/
@@ -128,35 +128,19 @@ body{
 
 /*tarjetas*/
 
-#tarjetas{
-    width: 100%;
-    height: 500px;
-    color: #00538c ;
-    text-align: center;
-}
-#tarjetas .tarjeta{
-    display: inline-block;
-    width: 200px;
-    height: 300px;
-    border: 1px solid #ccc;
+.tarjeta{
+    float: left;
+    width: 204px;
+    height: 305px;
+    margin: 22px;
     margin-top: 40px;
-    margin-right: 34px;
-    box-shadow: 0px 0px 2px #ccc;
-    font-family: "BebasNeve";
-}
- .tarjeta p{
-    font-family: "webSymbolsRegular";
-    font-size: 50px;
-    text-align: center;
-    margin-top: 50px;
-    color: black;
-}
-.tarjeta h2{
-    text-align: center;
-    margin-top: 60px;
-    color: #00538c;
-}
-.tarjeta #textSistemas{
-    font-size: 22px;
-}
+    border: 1px solid #cccccc;
+    box-shadow: 1px 1px 2px #dddddd;
+    overflow: hidden;
+    background: white;
+    cursor: pointer;
 
+}
+.card:last-child{
+    margin-right: 0px;
+}
