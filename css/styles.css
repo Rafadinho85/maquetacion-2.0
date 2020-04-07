@@ -106,35 +106,22 @@ body{
 }
 
 /*Estilos de banner*/
-#container{
-    width: 1250px;
-    min-height: 700px;
-    margin: 0px auto;
-}
-
-#bannerafuera{
-    width: 1208px;
-    height: 120px;
-    border: 1px solid #cccccc;
-    margin-top: 32px;
-   line-height: 120px;
-   padding: 10px;
-}
 #banner{
-    display: block;
-    width: 1200px;
-    height: 100%;
-    border: 1px solid #cccccc;
-    margin: 0px auto;
-    text-align: center;
-    background: linear-gradient(to right, #002846, #0061a1);
-  
+    width: 96.5%;
+    height: 100px;
+    border: 10px solid white;
+    box-shadow: 0px 0px 2px gray;
+    background-image: url("../img/bakbaner.png");
+    background-position: -230px -200px;
+    margin: 20px;
 }
-
 #banner h1{
+    display: block;
+    width: 850px;
+    font-family: "BebasNeve";
     color: white;
-    font-family: BebasNeue;
+    font-size: 29px;
     letter-spacing: 2px;
-    text-shadow: 0px 4px 2px black;
-    font-size: 40px;
+    text-shadow: 2px 2px 1px black;
+    margin: 35px auto;
 }
