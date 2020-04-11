@@ -312,3 +312,15 @@ body{
         text-decoration: underline;
         cursor: pointer;
     }
+    #social{
+        height: 190px;
+    }
+    #social a{
+        display: block;
+        font-size: 30px;
+        text-decoration: none;
+        color: black;
+        margin-left: 20px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
