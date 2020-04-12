@@ -389,3 +389,17 @@ body{
         margin-bottom: 10px;
         font-size: 15px;
     }
+
+    #blog{
+        margin-top: 60px;
+        line-height: 100px;
+        text-align: center;
+    }
+    #blog a{
+        display: block;
+        font-family: "BebasNeue";
+        font-size: 40px;
+        letter-spacing: 3px;
+        color: #000538;
+        text-decoration: none;
+    }
