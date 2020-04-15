@@ -166,6 +166,17 @@ body{
     background-image: url("../img/bakbaner.png");
     background-position: -230px -200px;
     margin: 20px;
+    animation: backBanner 10s linear;
+    overflow: hidden;
+} 
+@keyframes backBanner{
+    from{
+        background-position: 0px 0px;
+    }
+    to{
+        background-position: 200px -200px;
+
+    }
 }
 #banner h1{
     display: block;
@@ -176,6 +187,31 @@ body{
     letter-spacing: 2px;
     text-shadow: 2px 2px 1px black;
     margin: 35px auto;
+    animation: showText 10s linear;
+   
+}
+@keyframes showText{
+    0%{
+        transform: translateX(-600%) scale(5,5);
+        opacity: 1;
+    }
+    50%{
+        transform: translateX(600%) scale(5,5);
+        opacity: 1;
+    }
+    75%{
+        transform: translateX(-600%) scale(5,5);
+        opacity: 0;
+        box-shadow: none;
+        color: transparent;
+    }
+    100%{
+        transform: translateX(0%) scale(1,1);
+        text-shadow: 2px 2px 1px black;
+        color:transparent;
+        opacity: 1; 
+
+    }
 }
 
 /*tarjetas*/
