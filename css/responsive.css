@@ -1,0 +1,12 @@
+@media (max-width:1250px){
+    /*se ejecutara esto*/
+    .wrap{
+        width: 90%;
+        margin: 0px auto;
+
+    }
+    .tarjeta{
+        width: 17%;
+        margin: 1.45%;
+    }
+}
