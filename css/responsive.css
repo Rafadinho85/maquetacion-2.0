@@ -38,3 +38,78 @@
         font-size: 30px;
     }
 }
+
+
+@media(max-width:1080px){
+
+    .tarjeta .categoria{
+        font-size: 17px;;
+    }
+
+    .tarjeta .description{
+        font-size: 14px;
+    }
+
+    #articles{
+        width: 62%;
+    }
+}
+
+@media(max-width:970px){
+    #articles{
+        width: 59%;
+    }
+    #footer .wrap >div{
+        width: 23%;
+    }
+    #footer h5{
+        font-size: 21px;
+    }
+    #footer .wrap >div{
+        width: 26%;
+        margin:20px;
+    }
+}
+
+@media(max-width:925px){
+    #banner h1 {
+        font-size: 26px;
+        width: 100%;
+    }
+
+    #articles{
+        width: 65%;
+    }
+    #lateral{
+        width: 25%;
+    }
+    #lateral input[type="text"]{
+        width: 78%;
+    }
+    .aside-box{
+        width: 95%;
+        min-height: 140px;
+        height: auto;
+        padding-bottom: 10px;
+    }
+    #login a{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    #login input[type="email"], 
+    #login input[type="password"]{
+        width: 65%;
+    }
+    #login #password,
+    #login #user{
+        margin-left: 24px;
+    }
+    #login input[type="submit"],
+    #login input[type="buttom"],
+    #login input[type="reset"]{
+        margin-bottom: 0px;
+    }
+    #login input[type="reset"]{
+        display: none;
+    }
+}
