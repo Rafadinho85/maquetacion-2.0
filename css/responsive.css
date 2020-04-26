@@ -76,7 +76,10 @@
         font-size: 26px;
         width: 100%;
     }
-
+    
+    .tarjeta .icon{
+        width: 50%;
+    }
     #articles{
         width: 65%;
     }
@@ -111,5 +114,35 @@
     }
     #login input[type="reset"]{
         display: none;
+    }
+}
+@media(max-width:899px){
+    
+    #banner h1{
+        font-size: 21px;
+        
+    }
+    aside h3{
+        font-size: 20px;
+    }
+  
+}
+@media(max-width: 799px){
+
+    .card{
+        height: auto;
+    }
+    .card .categoria{
+        font-size: 15px;
+        margin-top: -23px;
+    }
+    .tarjeta .description{
+        display: none;
+        
+    }
+
+    #footer img{
+        margin-bottom: 15px;
+        max-width: 100%;
     }
 }
