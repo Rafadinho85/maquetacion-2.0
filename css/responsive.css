@@ -129,10 +129,10 @@
 }
 @media(max-width: 799px){
 
-    .card{
+    .tarjeta{
         height: auto;
     }
-    .card .categoria{
+    .tarjeta .categoria{
         font-size: 15px;
         margin-top: -23px;
     }
@@ -144,5 +144,55 @@
     #footer img{
         margin-bottom: 15px;
         max-width: 100%;
+    }
+}
+
+@media(max-width: 724px){
+    #header{
+        height: 122px;
+        width: 100%;
+        padding: 10px;
+    }
+    #logo{
+        float: none;
+        margin: 0px auto;
+    }
+    #menu{
+        clear: both;
+        float: none;
+        margin: 0px auto;
+        width: 77%;
+    }
+
+    #lateral input[type="text"] {
+        width: 73%;
+    }
+    .tarjeta {
+        width: 16%;
+        margin: 1.45%;
+    }
+}
+@media(max-width:654px){
+    #articles{
+        float: none;
+        width: 100%;
+        margin: 0px auto;
+        min-height: auto;
+        margin-top: 20px;
+    }
+    #lateral{
+        float: none;
+        width: 100%;
+        margin: 0px auto;
+        min-height: auto;
+    }
+    #banner h1{
+        font-size: 18px;
+    }
+    #lateral input[type="text"] {
+        width: 92%;
+    }
+    #login input[type="email"], #login input[type="password"] {
+        width: 89%;
     }
 }
