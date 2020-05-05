@@ -195,4 +195,15 @@
     #login input[type="email"], #login input[type="password"] {
         width: 89%;
     }
+    #footer {
+        height: auto;
+        padding-bottom: 10px;
+    }
+    #footer .wrap > div {
+        width: 100%;
+        margin: 20px;
+    }
+    #footer h5 {
+        font-size: 30px;
+    }
 }
